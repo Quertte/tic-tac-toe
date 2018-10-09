@@ -37,15 +37,15 @@ let tableData = [
 ]
 
 convertTable(tableData)
-# => [
-#  { "firstName" => "Elisabeth", "lastName" => "Gardenar", "city" => "Toledo", "state" => "OH" },
-#  { "firstName" => "Jamaal", "lastName" => "Du", "city" => "Sylvania", "state" => "OH" },
-#  { "firstName" => "Kathlyn", "lastName" => "Lavoie", "city" => "Maumee", "state" => "OH" }
-# ]
+=> [
+ { "firstName" : "Elisabeth", "lastName" : "Gardenar", "city" : "Toledo", "state" : "OH" },
+ { "firstName" : "Jamaal", "lastName" : "Du", "city" : "Sylvania", "state" : "OH" },
+ { "firstName" : "Kathlyn", "lastName" : "Lavoie", "city" : "Maumee", "state" : "OH" }
+]
 ```
 * Рисунок 5 *. Преобразование данных таблицы в массив обьектов.
 
-В этом выпуске мы преобразуем вложенный массив в массив обьектов. Другими словами, мы преобразуем массив, состоящий из массивов, в массив, состоящий из хешей. Давайте напишем метод `convertTable`, который берет вложенный массив, представляющий таблицу данных, и преобразует каждую строку данных в хэш, используя данные строки заголовка таблицы в виде ключей (см. Рис. 5).
+В этом выпуске мы преобразуем вложенный массив в массив обьектов. Другими словами, мы преобразуем массив, состоящий из массивов, в массив, состоящий из объектов. Давайте напишем метод `convertTable` (см. Рис. 5).
 
 ## Выводы
 
